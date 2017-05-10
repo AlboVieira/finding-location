@@ -1,0 +1,59 @@
+<table style="margin-top: 10px" class="table table-striped">
+    <tr>
+        <td><strong>IP</strong></td>
+        <td>
+            {{data.query}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('IP', data.query)}}"></i>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Country</strong></td>
+        <td>
+            {{data.country}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('Country', data.country)}}"></i>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Region</strong></td>
+        <td>
+            {{data.regionName}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('Region', data.regionName)}}"></i>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>City</strong></td>
+        <td>
+            {{data.city}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('City', data.city)}}"></i>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Timezone</strong></td>
+        <td>
+            {{data.timezone}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('Timezone', data.timezone)}}"></i>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Latitude</strong></td>
+        <td>
+            {{data.lat}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('Latitude', data.lat)}}"></i>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Longitude</strong></td>
+        <td>
+            {{data.lon}}
+            <i class="glyphicon glyphicon-question-sign pull-right"
+               uib-tooltip="{{getInfoMessage('Longitude', data.lon)}}"></i>
+        </td>
+    </tr>
+</table>
+
